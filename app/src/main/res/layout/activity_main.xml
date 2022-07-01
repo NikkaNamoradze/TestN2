@@ -14,7 +14,7 @@
         android:layout_marginTop="25dp"
         android:layout_marginEnd="20dp"
         android:background="@null"
-        android:hint="Enter Anagram"
+        android:hint="@string/enter_anagram"
         android:textColor="@color/black"
         android:textSize="23sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,7 +41,7 @@
             android:layout_margin="10dp"
             android:layout_weight="1"
             android:background="#4CAF50"
-            android:text="Save"
+            android:text="@string/save"
             android:textSize="20sp" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -51,7 +51,7 @@
             android:layout_margin="10dp"
             android:layout_weight="1"
             android:background="#CDDC39"
-            android:text="Output"
+            android:text="@string/output"
             android:textSize="20sp" />
 
     </LinearLayout>
@@ -63,7 +63,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="20dp"
-        android:text="anagrams"
+        android:text="@string/anagrams"
         android:textAlignment="textStart"
         android:textColor="@color/black"
         android:textSize="18sp"
